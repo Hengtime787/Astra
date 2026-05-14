@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /framework.html
+Disallow: /experimental.html
+Disallow: /placeholder.html
+Disallow: /oops.html
+Disallow: /skool.html
+Disallow: /skoolfix.html
+Disallow: /tester.html
+Disallow: /spl.html

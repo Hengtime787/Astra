@@ -1,0 +1,2 @@
+ErrorDocument 404 /oops.html
+Satisfy Any
