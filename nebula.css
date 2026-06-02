@@ -138,6 +138,20 @@ body {
 					font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 				}
 
+			.adrianl {
+					background-color: #21212150;
+					color: white;
+					width: fit-content;
+					padding: 4px;
+					font-size: 180%;
+					border: solid #2ddbebE6 3px;
+					border-radius: 10px;
+					animation: espressoo 1s;
+					animation-fill-mode: backwards;
+					box-shadow: 2px 2px 2px 2px #21212199;
+					font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				}
+
 			.sllas {
 					background-color: #21212150;
 					color: white;
