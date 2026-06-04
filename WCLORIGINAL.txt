@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<meta name="author" content="Matthew Heng">
+	<meta name="description" content="Willa, Cora, Lia! The Official WCL homepage, made by Matthew, the Sometimes Editor. With over 5 thousand views, the WLC is a fast growing youtube channel, full of joy. Enjoy premium grwm videos">
+	<meta name="keywords" content="Willa Cora Lia, Willa, Cora, Lia, Matthew, Willa Cora Lia Matthew, @WLC, WLC, grwm, care">
+	<link rel="icon" type="image/x-icon" href="images/wclw.ico">
+    <title>@WCL!</title>
+    <style>
+    	    	.i1 {
+	color: black;
+	background-image: url('images/px2.webp');
+}
+html {
+	scroll-behavior: smooth;
+}
+.i2 {
+	width: auto;
+	height: 35px;
+	border: solid gold 4px;
+	border-radius: 10px;
+	}
+	ul {
+		list-style-type: none;
+	}
+	li {
+		list-style-type: none;
+		float: left;
+		font-family: Bahnschrift;
+		font-size:2vw;
+		border-radius:2px;
+	}
+		a:link {
+		color: black;
+	}
+	a:hover {
+		color: red;
+	}
+	hr {
+		border-color:gold;
+	}
+	h1 {
+		font-family: Gabriola, Gadugi, Verdana;
+		font-size:6vw;
+		background-image: url('images/Wcl.png');
+		background-repeat: no-repeat;
+		background-size:cover;
+		width:50%;
+		height:20vw;
+		color:dodgerblue;
+		border:solid pink 20px;
+		border-radius: 70px;
+		padding:4vw;
+		padding-left:6vw;
+		animation-name: headd;
+		animation-duration: 3s;
+		position: relative;
+	}
+	mark {
+		background-color:pink;
+		border-radius:10px;
+	}
+	link:active {
+		color:gold;
+	}
+	a:link {
+		text-decoration-line:none;
+	}
+	@keyframes headd {
+ from {left: 150vw;}
+ to {left: 0vw;}
+	}
+	footer {
+		color:white;
+		font-family: Georgia, serif;
+		font-size:2vw;
+	}
+    	p {
+    		color:gold;
+    		font-size: 1.7vw;
+    		font-family: Tahoma, Verdana, Calibri;
+    	}
+		
+    	
+    	
+    </style>
+	</head>
+	<body style="font-size:9pt; background-image:url('images/px7.jpg')">
+	<ul>
+		<li><a href="https://matthew.heng.org/index"><img class="i2" src="images/logoo.png"/></a></li>
+		<li class="i1"><a href="https://matthew.heng.org/techsupport.">Tech Guides‎ ‎ ‎ ‎ ‎ </a></li>
+		<li class="i1"><a href="https://matthew.heng.org/air">Aerospace Designs‎ ‎ ‎‎‎</a></li>
+	</ul>
+<hr>
+<h1><mark><a href="#control1e">The Home of WCL</a></mark></h1>
+<p>WCL stands for Willa, Cora, Lia.</p>
+<footer>Matthew is the (sometimes) editor, and (full time) HTML, CSS, and JS coder for this webpage.</footer>
+<p style="color:white; font-size:1.9vw;">Watch our premium <i>Get Ready with Me</i> videos</p>
+<figure>
+<a href="https://youtube.com/@WillaCoraLia"><img src="images/wclw.ico" style="background-color: #ff2969; border-radius:30px;"></a>
+</figure>
+<figcaption  id="control1e" style="font-size:2vw; font-family: Verdana, Calibri, Tahoma, sans-serif ;color: #dc5567;"><b>Follow us on Youtube!</b></figcaption>		
+		
+	</body>
+</html>
