@@ -10,6 +10,7 @@ body {
 		background-repeat: no-repeat;
 		background-color: paleturquoise;
     }
+
 	#lul {
 		list-style-type: none;
 		padding:0;
@@ -17,7 +18,7 @@ body {
 		overflow: hidden;
 	width:100%;
 	top:0;
-	height:fit-content;
+	height:fit-content; /*this screws up animations for when the menu comes down in portait. to fix in future.*/
 	clear:both;
 	position: fixed;
 	left:0;
@@ -25,6 +26,7 @@ body {
 	animation: espressoo 2s;
 	animation-fill-mode: backwards;
 	}
+
 	.i1 {
 		list-style-type: none;
 		font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,11 +52,11 @@ body {
 		scale: 1.1;
 		}
 
+ /*-- Animations --*/
 		@keyframes bobb {
   0%   { transform: translateY(0) rotate(0deg); }
   50%  { transform: translateY(4px) rotate(0.5deg); }
   100% { transform: translateY(0) rotate(0deg); }
-
 }
 
 		@keyframes cansadooo {
@@ -70,7 +72,7 @@ body {
  from {transform: translateX(-3vh); opacity: 0;}
  to {transform: translateY(0vh); opacity: 1;}
 	}
-
+ /*-- Links --*/
 		a:link {
 		color: white;
 		text-decoration: none;
@@ -88,6 +90,9 @@ body {
 		text-decoration-line: underline;
 		color:powderblue;
 			}
+
+			/*----- General Style Classes -----*/
+				/*I like hyprland :)*/
 			.hyprlink {
 				text-decoration-line: underline;
 			}
@@ -97,6 +102,8 @@ body {
 				border: solid #2dc9d7 5px;
 				border-radius: 15px;
 				transition-duration: 1s;
+				animation: cansadooo 1s;
+				animation-fill-mode: backwards;
 			}
 			.hyprimage:hover {
 				border: solid #1dffc1 4px;
@@ -104,6 +111,21 @@ body {
 				scale: 1.6;
 				animation-timing-function: ease;
 			}
+
+			.hyprlist {
+				list-style-type: none;
+			}
+
+			hr {
+				border-color: #cd9e88;
+				animation-name: cansadooo;
+				animation-fill-mode: backwards;
+				animation-duration: 1s;
+			}
+
+            .divvv {
+                margin-top: 10%;
+            }
 
 			.navicon {
 				display:none;
@@ -208,6 +230,9 @@ body {
 			width: fit-content;
 			border-radius: 10px;
 		}
+
+			/*Will apply different styling, size, and navigation menu to portrait oriented devices*/
+
     		@media (orientation: portrait) {
 		#lul {
 			background-color:#41414190;
@@ -258,10 +283,6 @@ border-bottom: solid #40a4da 2px;
 	position: relative;
 	animation-name: espressooo;
 	animation-duration: 0.8s;
-}
-@keyframes slidd {
-	from {right: -100vw;}
-	to {right: 0vw;}
 }
 
 		.navicon {
