@@ -4,4 +4,5 @@ All open self-hosted fonts used have been liscensed, and are listed below:
 
 "Ubuntu" -- Ubuntu font license, Version 1.0.
 
+"Nunito Sans" -- SIL Open Font License, Version 1.1.
 ---------------------------------------
