@@ -1,7 +1,12 @@
+/*--- Fonts ---*/
 @font-face {
 	font-family: "Ubuntu";
-	src: url();
+	src: url("papercuts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+	font-display: swap;
+	font-weight: 400;
 }
+
+/*--- General ---*/
 	html {
   scroll-behavior: smooth;
 }
@@ -14,6 +19,8 @@ body {
 		background-repeat: no-repeat;
 		background-color: #403151;
     }
+
+/*--- Nav ---*/
 
 	#lul {
 		list-style-type: none;
@@ -33,7 +40,7 @@ body {
 
 	.i1 {
 		list-style-type: none;
-		font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: 'Trebuchet MS', "Ubuntu", Tahoma, Geneva, Verdana, sans-serif;
 		font-size:2.3vw;
 		border-radius:2px;
 		float: left;
@@ -76,7 +83,9 @@ body {
  from {transform: translateX(-3vh); opacity: 0;}
  to {transform: translateY(0vh); opacity: 1;}
 	}
+	
  /*-- Links --*/
+ 
 		a:link {
 		color: white;
 		text-decoration: none;
@@ -92,12 +101,14 @@ body {
 
 	a:active {
 		text-decoration-line: underline;
-		color:powderblue;
+		color:powderblue;;
 			}
 
-			/*----- General Style Classes -----*/
+/*--- General Style Classes ---*/
+			
 				/*I like hyprland :)*/
-			.hyprlink {
+				
+			.hyprlink {#42445A
 				text-decoration-line: underline;
 			}
 
@@ -131,6 +142,7 @@ body {
                 margin-top: 10%;
             }
 
+/*--Spec for Nav--*/
 			.navicon {
 				display:none;
 			}
@@ -147,9 +159,9 @@ body {
 	#fful {
 					list-style-type: circle;
 					color: white;
-					font-family: 'Trebuchet MS', Tahoma, Verdana, sans-serif;
+					font-family: 'Trebuchet MS', "Ubuntu", Tahoma, Verdana, sans-serif;
 				}
-
+/*--- General Again ---*/
 			.adrian {
 					background-color: #21212150;
 					color: white;
@@ -161,7 +173,7 @@ body {
 					animation: espressoo 1s;
 					animation-fill-mode: backwards;
 					box-shadow: 2px 2px 2px 2px #21212199;
-					font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+					font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 				}
 				.adrianh {
 					background-color: #21212150;
@@ -175,7 +187,7 @@ body {
 					animation: espressoo 1s;
 					animation-fill-mode: backwards;
 					box-shadow: 2px 2px 2px 2px #21212199;
-					font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+					font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 				}
 
 			.adrianl {
@@ -189,7 +201,7 @@ body {
 					animation: espressoo 1s;
 					animation-fill-mode: backwards;
 					box-shadow: 2px 2px 2px 2px #21212199;
-					font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+					font-family: "Ubuntu", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 				}
 
 			.sllas {
