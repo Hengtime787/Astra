@@ -3,8 +3,9 @@
 		const navItem = document.getElementsByClassName("i1");
 				for (i = 0; i < navItem.length; i++) {
 					navItem[i].classList.toggle("showman")
+					//To Add: rotate 90 defrees tand the.rotate back navicon
 				}
-
+      //put whatever js tag shit here for that.
     	}
 		
 	addEventListener("DOMContentLoaded", () =>
