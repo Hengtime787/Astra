@@ -115,8 +115,9 @@ body {
 			
 				/*I like hyprland :)*/
 				
-			.hyprlink {#42445A
+			.hyprlink {
 				text-decoration-line: underline;
+				color: #fdfafa;
 			}
 
 			.hyprimage {

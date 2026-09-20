@@ -1,4 +1,14 @@
-Hi! This is just my personal website, used for bragging, blogging, or whatever random thing I need a website for. Hopefully it looks good now that I'm updating it.
+Hi, _Matthew.heng.org_ is my personal/portfolio website. I use it to showcase my latest projects, happenings, and just to brag about myself sometimes. Updates on my current projects, _Atlas_ and _Antimatter_ will be posted there, as well as on their respective Github pages.
+
+~~~~~~~~~~~~~~~~~~~~~ Todo ~~~~~~~~~~~~~~~~~~~~~~~
+
+    -Add animation for navbar onclick.
+
+
+
+
+
+------------------ Font Liscenses ---------------------
 
 All open self-hosted fonts used have been liscensed, and are listed below:
 
