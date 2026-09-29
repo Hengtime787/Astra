@@ -71,6 +71,7 @@ body {
 		}
 
  /*-- Animations --*/
+
 		@keyframes bobb {
   0%   { transform: translateY(0) rotate(0deg); }
   50%  { transform: translateY(4px) rotate(0.5deg); }
@@ -136,7 +137,7 @@ body {
 			}
 
 			.hyprlist {
-				list-style-type: round;
+				list-style-type: circle;
 				font-family: NunitoSans;
 				color: white;
 			}
@@ -220,12 +221,26 @@ body {
 					width: fit-content;
 					padding: 4px;
 					font-size: 140%;
-					border: solid #2ddbebE6 3px;
+					border: solid #2ddbebE6 1px;
 					border-radius: 10px;
 					animation: espressoo 1s;
 					animation-fill-mode: backwards;
-					box-shadow: 2px 2px 2px 2px #21212199;
+					box-shadow: 1px 1px 1px 1px #212121ee;
 					font-family: 'Trebuchet MS', NunitoSans, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+				}
+
+				.igyeih {
+					background-color: #40404070;
+					color: white;
+					width: fit-content;
+					padding: 3%;
+					font-size: 170%;
+					border: solid white 2px;
+					border-radius: 10px;
+					animation: espressoo 1.2s;
+					animation-fill-mode: backwards;
+					box-shadow: 2px 2px 2px 2px #212121bb;
+					font-family: 'Trebuchet MS', Ubuntu, 'Lucida Sans Unicode', NunitoSans, sans-serif;
 				}
 
 		footer {
@@ -322,6 +337,17 @@ border-bottom: solid #40a4da 2px;
 	animation-name: espressooo;
 	animation-duration: 0.8s;
 }
+
+.igyeih {
+	font-size:8vw !important;
+}
+
+.sllas {
+	font-size:7vw !important;
+}
+
+
+
 
 		.navicon {
 			display:block;
