@@ -22,12 +22,12 @@
 	
 		<div>
 <p class="wuhble">
-	Aspera (formerly known as Atlas) is aimed to be the fastest and most efficient voice assistant. Most voice assistants, like Siri and Google 
+	Aspera (formerly known as Atlas) is aimed to be the fastest and most efficient voice assistant. Most voice assistants, like Siri and Google Assistant use slow AIs, that aren't guarenteed to be private or secure for everything. They lack modern features or integrations, and execute actions in sluggish and inefficient ways. Aspera is aimed as a viable replacement.
 	</p>
 	
 	<p class="notepaad">
 	
-	In Android Studio benchmarks, Aspera completed and executed it's actions under human reaction time, creating a virtually instant experience. 
+	In Android Studio benchmarks, Aspera completed and executed it's actions under the average human reaction time, creating a virtually instant experience. 
 	
 </p>
 
@@ -55,14 +55,31 @@
 			</div>
 		<div>
 			<p class="wuhble">
-				Aspera has a completely unique, efficient, and innovative engine behind all of it's actions. Aspera uses no AI or Language Models, which substantially improves performence, as well as compatibility; when practically every other voice assistant just pipes their users requests to an LLM, which also poses a potential security risk. This poses a unique challenge for Aspera to solve: It needs to figure out the user's intent, and any other relevant information to pass along, as well as actually executing the action, and generating a response; all while staying on-device, without proprietary services, and without AI. Aspera keeps all of your data, preferences, and requests offline. This enhances the speed and security of Aspera. Usually when making any local-first application, developers compromise on app size and usage on storage (which often impacts speed and resource usage as well), but Aspera is designed around keeping storage usage low, and speed quick, posing another development challenge. Using a quantisized intent engine, along with custom in-house systems and code, Aspera is able to run quickly and efficiently, offline, without substantially impacting storage space.
+				Aspera has a completely unique, efficient, and innovative engine behind all of it's actions. Aspera uses no AI or Language Models, which substantially improves performence, as well as compatibility; when practically every other voice assistant just pipes their users requests to an LLM, which also poses a potential security risk. This poses a unique challenge for Aspera to solve: It needs to figure out the user's intent, and any other relevant information to pass along, as well as actually executing the action, and generating a response; all while staying on-device, without proprietary services, and without AI. Aspera keeps all of your data, preferences, and requests offline. This enhances the speed and security of Aspera. Usually when making any local-first application, developers compromise on app size and usage on storage (which often impacts speed and resource usage as well), but Aspera is designed around keeping storage usage low, and speed quick, posing another development challenge. Using a quantisized intent engine, along with custom in-house systems and code, Aspera is able to run quickly and efficiently, offline, without substantially impacting storage space.<br> Aspera uses a custom-built intent engine, using Fasttext (an open-source intent classifier from 2016) as it's base for figuring out user intent. From there, I've used Android Studio APIs to validate and authenticate all sensitive actions.
 			</p>
 		</div>
 
 		<div>
-			<p class=""
+			<h1 class="adrianl">Next Steps</h1>
 		</div>
-			
+		<div>
+			<p class="wuhble">My current line of work (as of October 22, 2026) is to develop an argument engine, to pass along valuable info and keywords to the action and response engines. For example, I need a system that takes "What's the weather looking like tomorrow?", and passes along the "tomorrow" info, as well as the user's intent (WEATHER_REQUEST). I have the system in place for finding the intent (called the intent engine), and now must work on taking and passing a string along, with a reliable result, as opposed to a keyword operator, which is ineffective against unexpetcted wording.</p>
+		</div>
+<div>
+<p class="sllas">To do:</p>
+		<ul class="hyprlist">
+
+			<li>Argument Engine (Current)</li>
+			<li>Onboarding Program/UI</li>
+			<li>Response Sender [Rich/Fast TTS]</li>
+			<li>Query Intake [STT]</li>
+			<li>Wake Word Detection</li>
+			<li>Background Service</li>
+
+
+
+		</ul>
+			</div>
 
 
 		<!--
