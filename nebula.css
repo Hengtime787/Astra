@@ -141,6 +141,39 @@ body {
 				font-family: NunitoSans;
 				color: white;
 			}
+/*
+			.merry-go-round {
+				  width: 50vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+    overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+			}
+
+.merry-go-round::scroll-button(*) {
+	  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+			.over-each-other {
+				  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+			}
+
+			.over-each-other:nth-child(even) {
+  background-color: #cd9e88;
+}*/
 
 			hr {
 				border-color: #cd9e88;
